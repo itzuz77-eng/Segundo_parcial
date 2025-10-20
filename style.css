@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Fjalla+One&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poetsen+One&display=swap');
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+}
+body{
+    font-family: IBM Plex Mono ;
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    background: whitesmoke;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-header h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+.section-header p {
+    font-size: 1.1em;
+    color: #666;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.section-header .subtitle {
+    font-weight: 300;
+    font-size: 1em;
+}
+.work-gallery {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 30px;
+}
+@media (min-width: 768px) {
+    .work-gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.work-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.card-image {
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.card-image img {
+    width: 100%; 
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2em;
+    user-select: none;
+    opacity: 0.8;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+.nav-arrow:hover {
+    opacity: 1;
+}
+.card-content h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+.card-content p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #4cae4c;
+}
+@media (max-width: 480px) {
+    .section-header h1 {
+        font-size: 2em;
+    }
+    .container {
+        padding: 20px 10px;
+    }
+    .nav-arrow {
+        padding: 5px 10px;
+        font-size: 1em;
+    }
+}
