@@ -5,3 +5,15 @@ html{
     padding: 0;
     background: whitesmoke;
 }
+ody{
+    font-family: IBM Plex Mono ;
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    background: whitesmoke;
+
+    
