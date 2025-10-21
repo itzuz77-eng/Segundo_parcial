@@ -5,7 +5,7 @@ html{
     padding: 0;
     background: whitesmoke;
 }
-ody{
+body{
     font-family: IBM Plex Mono ;
     background-color: whitesmoke;
 }
@@ -15,5 +15,35 @@ h1{
 p{
     text-align: center;
     background: whitesmoke;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-header h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+.section-header p {
+    font-size: 1.1em;
+    color: #666;
+    margin: 0 auto;
+    max-width: 700px;
+}
 
-    
+.section-header .subtitle {
+    font-weight: 300;
+    font-size: 1em;
+}
+.work-gallery {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 30px;
+}
