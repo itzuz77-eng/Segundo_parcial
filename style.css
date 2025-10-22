@@ -7,14 +7,20 @@ html{
 }
 body{
     font-family: IBM Plex Mono ;
-    background-color: whitesmoke;
+    background-color: #FFFF;
+}
+h1,h2{
+    font-family: Raleway;
+    color: #080808;
 }
 h1{
     text-align: center;
 }
 p{
-    text-align: center;
-    background: whitesmoke;
+    text-align: auto;
+    background: #fff;
+    line-height: 2em;
+    color: #9C9C9C;
 }
 .container{
     max-width: 1200px;
@@ -33,14 +39,9 @@ p{
 }
 .section-header p {
     font-size: 1.1em;
-    color: #666;
+    color: #9C9C9C;
     margin: 0 auto;
     max-width: 700px;
-}
-
-.section-header .subtitle {
-    font-weight: 300;
-    font-size: 1em;
 }
 .work-gallery {
     display: grid;
@@ -116,7 +117,7 @@ p{
     transition: background-color 0.3s ease;
 }
 .button:hover {
-    background-color: #4cae4c;
+    background-color: #3F8E00;
 }
 
 @media (max-width: 480px) {
