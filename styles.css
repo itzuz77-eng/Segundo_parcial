@@ -422,6 +422,124 @@ gap: 20px;
 }
 
 
+/*telefonos*/
+@media (min-width: 375px) and (max-width: 667px) {
+.hero{
+ height: auto;
+ height: 1050px;
+}
+
+.menu{ 
+height: 140px;
+width: 100%;
+display: block;
+padding: 0;
+overflow-x: hidden;
+}
+
+.menu ul {
+gap: 1px;
+flex-flow: wrap;
+margin-top: 5px;
+justify-content: center;
+line-height:0;
+}
+
+.menu .icons {
+justify-content: center;
+height: auto;
+}
+
+.principal {
+display: block;
+margin-top: auto;
+}
+
+.principal_descripcion h1{
+font-size: 35px;
+margin-left: 45px;
+margin-top:30px;
+}
+
+.principal_descripcion p{
+font-size: 13px;
+text-align: left;
+margin-left:-62px;
+display: block;
+white-space: pre-line;
+letter-spacing: -1px;
+text-align: center;
+}
+
+.principal_descripcion a{
+font-size: 14px;
+display: block;
+width: 200px;
+height: 45px;
+padding: 13px;
+margin-top: 20px;
+margin-left: 80px;
+}
+
+.principal_imagen {
+margin-left: 17px;
+margin-top: 30px;
+}
+
+.principal_imagen_formato {
+width: 340px;
+height: 340px;
+}
+
+.alliances {
+display: block;
+padding: 5px;
+margin-top: 10px;
+width: auto;
+}
+
+.alliances_header p {
+margin-left: 20px;
+margin-top: 0px;
+}
+
+.alliances_logos {
+margin-right: 10px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+}
+
+.alliances_logos a{
+width: 80%;
+height: auto;  
+}
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
