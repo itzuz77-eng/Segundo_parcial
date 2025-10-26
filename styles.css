@@ -595,21 +595,84 @@ height: 60px;
 margin-right: 40px;
 }
 
-
-
-
-
-
-
-
 }
 
+/*Ipad Pro*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+.hero{
+width: 100%;
+}
 
+.menu{
+padding: 10px;
+height: 90px;
+display: flex;
+gap: 10px;
+white-space: nowrap;
+}
+.menu ul {
+gap: 20px;
+padding-left: 20px;
+}
 
+.menu .icons {
+gap: 20px;
+width: auto;
+height: 70px;
+display: flex;
+align-items: center;
+padding-right: 40px;
+}
 
+.principal{
+width: 888px;
+display: flex;
+margin-top: 80px;
+}
 
+.principal_descripcion h1{
+font-size:44px;
+}
 
+.principal_descripcion p{
+width: 492px;
+height: 72px;
+font-size: 15px;
+}
 
+.principal_descripcion a{
+ width: 240px; 
+}
+
+.principal_imagen{
+margin-left: 2px;
+margin-top: 20px;
+}
+
+.principal_imagen_formato {
+height: 350px;
+width: 350px;
+margin-right: 30px;
+}
+ 
+.alliances {
+width: auto;
+margin-top: 20px;
+}
+
+.alliances_header p {
+margin-left: 20px;
+}
+
+.alliances_logos {
+display: flex;
+}
+
+.alliances_logos a{
+width: 150px;
+}
+
+}
 
 
 
