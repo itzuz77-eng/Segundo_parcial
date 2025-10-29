@@ -48,11 +48,6 @@ p{
     grid-template-columns: 1fr; 
     gap: 30px;
 }
-@media (min-width: 768px) {
-    .work-gallery {
-        grid-template-columns: 1fr 1fr;
-    }
-}
 .work-card {
     background-color: #fff;
     border-radius: 8px;
@@ -120,15 +115,24 @@ p{
     background-color: #3F8E00;
 }
 
-@media (max-width: 480px) {
-    .section-header h1 {
-        font-size: 2em;
+/*Mini Ipad*/
+@media only screen and (min-width: 375px) and (max-width: 1024px){
+    .work-gallery {
+        grid-template-columns: 1fr 1fr;
     }
-    .container {
-        padding: 20px 10px;
+}
+
+/*Ipad Pro*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
+    .work-gallery {
+        grid-template-columns: 1fr 1fr;
     }
-    .nav-arrow {
-        padding: 5px 10px;
-        font-size: 1em;
+}
+
+
+/*Computadoras*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .work-gallery {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
