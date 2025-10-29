@@ -45,7 +45,7 @@ p{
 }
 .work-gallery {
     display: grid;
-    grid-template-columns: 1fr; 
+    grid-template-columns: repeat(2,1fr); 
     gap: 30px;
 }
 .work-card {
@@ -118,14 +118,14 @@ p{
 /*Mini Ipad*/
 @media only screen and (min-width: 375px) and (max-width: 1024px){
     .work-gallery {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
 /*Ipad Pro*/
 @media only screen and (min-width: 1024px) and (max-width: 1366px){
     .work-gallery {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
@@ -133,6 +133,6 @@ p{
 /*Computadoras*/
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .work-gallery {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3,1fr);
     }
 }
