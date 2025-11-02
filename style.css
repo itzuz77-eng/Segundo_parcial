@@ -13,6 +13,7 @@ min-height: 100vh;
 .contacto {
 max-width: 500px;
 margin: auto;
+padding: 30px;
 text-align: center;
 background-color: #FFAFCC;
 border-radius: 12px;
