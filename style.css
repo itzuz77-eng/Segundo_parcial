@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap'); 
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto {
+  flex: 1;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.contacto h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.contacto p {
+  text-align:center;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #cccccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  color:#757575;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #929191;
+}
+
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #3F8E00;
+  color: #ffffff;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 25px;
+  border-radius: 4px;
+  border-color: #62BA1B;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  box-shadow: 5px 5px 30px #3F8E00;
+}
+
+
+button:hover {
+  background-color: #00994d;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1B1B1B;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+/* Celulares pequeños (hasta 480px) */
+@media (max-width: 480px) {
+  .contacto {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .contacto h2 {
+    font-size: 22px;
+  }
+
+  .contacto p,
+  label,
+  input,
+  textarea {
+    font-size: 13px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 20px;
+    height: 45px;
+  }
+}
+
+/* Mini iPad y tablets verticales (481px a 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .contacto {
+    max-width: 90%;
+    padding: 25px;
+  }
+
+  .contacto h2 {
+    font-size: 26px;
+  }
+
+  .contacto p,
+  label,
+  input,
+  textarea {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 15px;
+    height: 48px;
+  }
+}
+
+/* iPad Pro y tablets horizontales (769px a 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contacto {
+    max-width: 600px;
+    padding: 30px;
+  }
+
+  .contacto h2 {
+    font-size: 28px;
+  }
+
+  .contacto p,
+  label,
+  input,
+  textarea {
+    font-size: 15px;
+  }
+
+  button {
+    font-size: 16px;
+    height: 50px;
+  }
+}
+
+
+
+
