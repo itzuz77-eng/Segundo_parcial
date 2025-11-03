@@ -1,99 +1,104 @@
 
 body {
-  margin: 0;
-  font-family: "DM Serif Text", serif;
-  background-color: #ffd6f4;
-  color: #290628;
-  display: flex;
-  flex-direction: column;
-  gap:15px;
-  min-height: 100vh;
+margin: 0;
+font-family: "DM Serif Text", serif;
+background-color: #ffd6f4;
+color: #290628;
+display: flex;
+flex-direction: column;
+gap:15px;
+min-height: 100vh;
 }
 
 .contacto {
-  max-width: 500px;
-  margin: auto;
-  padding: 30px;
-  text-align: center;
-  background-color: #FFAFCC;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+max-width: 500px;
+margin: auto;
+padding: 30px;
+text-align: center;
+background-color: #FFAFCC;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .contacto h1 {
-  font-size: 28px;
-  color: #290628;
+font-size: 28px;
+color: #290628;
 }
 
 .contacto h2 {
-  font-size: 22px;
-  margin-bottom: 10px;
-  color:  #290628;
+font-size: 22px;
+margin-bottom: 10px;
+color:  #290628;
 }
 
 .contacto p {
-  font-size: 16px;
-  margin-bottom: 20px;
-  color: #290628;
+font-size: 16px;
+margin-bottom: 20px;
+color: #290628;
 }
 
 
 form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+display: flex;
+flex-direction: column;
+gap: 15px;
 }
 
 
 input,
 textarea {
-  padding: 10px;
-  font-size: 16px;
-  border-radius: 8px;
-  border: 2px solid #CDB4DB;
-  background-color: #ffffff;
-  color: #290628;
-  box-sizing: border-box;
-  width: 100%;
-  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+padding: 10px;
+font-size: 16px;
+border-radius: 8px;
+border: 2px solid #CDB4DB;
+background-color: #ffffff;
+color: #290628;
+box-sizing: border-box;
+width: 100%;
+transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 input:focus,
 textarea:focus {
-  border-color: #A2D2FF;
-  outline: none;
-  box-shadow: 0 0 5px #A2D2FF;
+border-color: #A2D2FF;
+outline: none;
+box-shadow: 0 0 5px #A2D2FF;
 }
 
 
 .button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+display: flex;
+justify-content: center;
+margin-top: 10px;
 }
 
 button {
-  font-family: "DM Serif Text", serif;
-  background-color: #BDE0FE;
-  color: #290628;
-  padding: 10px 25px;
-  font-size: 16px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  min-width: 120px;
+font-family: "DM Serif Text", serif;
+background-color: #BDE0FE;
+color: #290628;
+padding: 10px 25px;
+font-size: 16px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+min-width: 120px;
 }
 
 button:hover {
-  background-color: #caa2ff;
+background-color: #caa2ff;
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #CDB4DB;
-  color: #290628;
-  font-size: 20px;
-  margin-top: auto;
+text-align: center;
+padding: 20px;
+background-color: #CDB4DB;
+color: #290628;
+font-size: 20px;
+margin-top: auto;
 }
+
+
+
+
+
