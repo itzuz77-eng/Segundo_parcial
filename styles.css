@@ -714,6 +714,56 @@ margin-left: 10px;
 width: 350px;
 }
 
+.work-section{
+padding: 50px;
+margin-top: 250px;
+}
+
+.work-card{
+display: block;
+}
+.card-image{
+margin-left: 0px;
+height: 0px;
+display: flex;
+flex-direction: column; 
+align-items: center;
+}
+
+.card-image img{
+margin-bottom: 50px;
+margin-top: 500px;
+gap: 500px;
+}
+
+.card-content1{
+margin-left: 0px;
+position: relative;
+margin-top: 0;
+display: inline-block;
+}
+
+.card-content2{
+margin-left: 0;
+position: relative;
+margin-top: 0;
+margin-top: 40px;
+display: inline-block;
+}
+
+.card-content1 h1{
+position: absolute;
+z-index: 1;
+}
+
+.card-content2 h1{
+position: absolute;
+}
+
+
+
+
+
 }
 
 /*Mini Ipad*/
@@ -913,6 +963,31 @@ margin-left: 10px;
 width: 350px;
 }
 
+.card-content1{
+margin-left: 0px;
+position: relative;
+margin-top: 0;
+display: inline-block;
+margin-left: 20px;
+}
+
+.card-content2{
+margin-left: 30px;
+position: relative;
+margin-top: 0;
+margin-top: 40px;
+display: inline-block;
+}
+
+.card-content1 h1{
+position: absolute;
+}
+
+.card-content2 h1{
+position: absolute;
+}
+
+
 }
 
 /*Ipad Pro*/
@@ -1001,6 +1076,29 @@ margin-left: 60px;
 
 .case_studies_green{
 justify-content: center;
+}
+.card-content1{
+margin-left: 0px;
+position: relative;
+margin-top: 0;
+display: inline-block;
+margin-left: 50px;
+}
+
+.card-content2{
+margin-left: 140px;
+position: relative;
+margin-top: 0;
+margin-top: 40px;
+display: inline-block;
+}
+
+.card-content1 h1{
+position: absolute;
+}
+
+.card-content2 h1{
+position: absolute;
 }
 
 }
