@@ -500,14 +500,6 @@ margin-bottom: 100px;
 margin-bottom: 100px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Raleway:wght@400;500&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: #000;
   color: #fff;
@@ -613,11 +605,6 @@ textarea {
   align-items: center;
   margin-top: 80px;
 }
-
-.heart {
-  color: red;
-}
-
 
 
 /*telefonos*/
